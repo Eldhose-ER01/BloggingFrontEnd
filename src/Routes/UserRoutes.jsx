@@ -12,8 +12,9 @@ export default function UserRoutes() {
     <div>
       <Routes>
           <Route path="/login" element={<UserLogin />}/>
+           <Route path="/signup" element={<UserSignup />}/>
         <Route element={<ProtectedRoute/>}>
-    <Route path="/signup" element={<UserSignup />}/>
+   
   
     <Route path='/'element={<Home/>}/>
     <Route path='/addblog'element={<AddnewBlog />}/>
