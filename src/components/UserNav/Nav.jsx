@@ -77,11 +77,11 @@ export default function Nav() {
            </Link>
              
            
-             <Link to={"/selectstate"} className="block text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium">
-              Places
+             <Link to={"/viewblog"} className="block text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium">
+                View my blog
             </Link>
-            <Link to={"/userprofile"} className="block text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium">
-              Profile
+            <Link to={"/addblog"} className="block text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium">
+              Add a NewBlog
             </Link>
             {tokens == null ? (
               <div className="md:ml-8 text-xl semibold md:my-0 my-7">
